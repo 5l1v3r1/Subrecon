@@ -10,6 +10,12 @@ Currently under development.
 
 `$ sh dns-recon.sh [ example.com ] [ wordlist_file.txt ]`
 
+#### Example usage and output
+
+`$ sh dns-recon.sh ns.agency.com wordlist-mostpop-10000.txt`
+
+`-- add output screenshot here--`
+
 ### Subdomain Wordlists
 There are multiple wordlists for all purposes.
 
