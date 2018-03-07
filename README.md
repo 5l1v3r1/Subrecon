@@ -1,5 +1,5 @@
 # DNS-Recon
-DNS Wordlist and Discovery tool
+DNS-Recon is a subdomain discovery tool with example wordlists.
 
 ### DNS Discovery Tool
 Currently under development.
