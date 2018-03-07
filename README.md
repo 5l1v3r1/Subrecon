@@ -5,4 +5,4 @@ DNS Wordlist and Discovery tool
 Currently under development.
 
 ### DNS Wordlist
-Wordlist is compiled by Brian.
+There are multiple wordlists for all purposes. The idea is to create several wordlists that they can be used on a case-by-case basis. For example, an Australian-specific subdomain wordlist for Aussie websites vs. Government-specific subdomain wordlist for Government websites.
