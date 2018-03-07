@@ -1,10 +1,16 @@
 # DNS-Recon
 DNS-Recon is a subdomain discovery tool with example wordlists.
 
-### DNS Discovery Tool
+### Subdomain Discovery Tool
+Tool to return a list of subdomains found via. DNS brute forcing.
+
 Currently under development.
 
-### DNS Wordlist
+#### Usage
+
+`$ sh dns-recon.sh [ example.com ] [ wordlist_file.txt ]`
+
+### Subdomain Wordlists
 There are multiple wordlists for all purposes.
 
 The idea is to create several wordlists that they can be used on a case-by-case basis. For example, an Australian-specific subdomain wordlist for Aussie websites vs. Government-specific subdomain wordlist for Government websites.
