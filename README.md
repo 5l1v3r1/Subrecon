@@ -2,9 +2,11 @@
 DNS-Recon is a subdomain discovery tool with example wordlists.
 
 ### Subdomain Discovery Tool
-Tool to return a list of subdomains found via. DNS brute forcing.
+Tool to return a list of subdomains found via. brute forcing with a wordlist.
 
-Currently under development.
+Future developments:
+- Recursive scanning for discovered subdomains i.e. `*.discovered_subdomain.domain.com`
+- Python port
 
 #### Usage
 
@@ -19,10 +21,7 @@ Currently under development.
 ### Subdomain Wordlists
 There are multiple wordlists for all purposes.
 
-The idea is to create several wordlists that they can be used on a case-by-case basis. For example, an Australian-specific subdomain wordlist for Aussie websites vs. Government-specific subdomain wordlist for Government websites.
+The idea is to create several wordlists that they can be used on a case-by-case basis. For example, a Government-specific subdomain wordlist for Government websites i.e. "edu.gov" or "health.gov".
 
-#### wordlist-10000
-A general wordlist with no specific focus.
-
-#### wordlist-brian
-A wordlist focusing on more common subdomain names.
+#### mostpop-10000.txt
+10,000 "most popular" subdomains on the internet.
