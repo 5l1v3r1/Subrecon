@@ -15,7 +15,7 @@ fi
 while read line
 do
         #echo $line$dot$domain
-	host $line$dot$domain | grep 'not found\|127\.0\.0\.1' &> /dev/null
+	host $line$dot$domain | grep 'not found' &> /dev/null
 	if [ $? != 0 ]
 	then
 		echo $line$dot$domain
