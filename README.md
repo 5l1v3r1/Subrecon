@@ -1,5 +1,5 @@
-# DNS-Recon
-DNS-Recon is a subdomain discovery tool with example wordlists.
+# Subrecon
+Subrecon is a subdomain discovery tool with example wordlists.
 
 ### Subdomain Discovery Tool
 Tool to return a list of subdomains found via. brute forcing with a wordlist.
